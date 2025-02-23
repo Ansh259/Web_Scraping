@@ -61,7 +61,9 @@ After running the script, you'll find two output files:
 Check the Colab output: After running the code, the two files (hockey_stats.zip and hockey_stats.xlsx) will be generated in the working directory. If you're running the code in Google Colab, you can download them directly from the file explorer or use the following code to download the files:
 
 from google.colab import files
+
 files.download("hockey_stats.zip")
+
 files.download("hockey_stats.xlsx")
 
 # Testing
