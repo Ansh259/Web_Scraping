@@ -9,4 +9,4 @@ unittest.mock
 patch
 pyspark.sql
 
-NOTE: You need to import these libraries using pip install command, if you haven't installed yet!
+NOTE: You need to import these libraries using pip install command or directly import on colab cell, if you haven't installed yet!
