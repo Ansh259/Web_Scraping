@@ -59,10 +59,15 @@ After running the script, you'll find two output files:
     b.2) Sheet 2: Winner and Loser per Year (summary of teams with the most and least wins).
 
 # Testing
+
 The project includes unit tests for data transformation. You can run the tests to verify the correctness of the core logic.
+
 Step 1: Install pytest if you haven't already using bash command: !pip install pytest
+
 Step 2: Created Unit Tests for Core Logic for the core logic of parsing and processing data without hitting the actual website and save the file as TestCases.py
+
 Step 3: Running the Tests on the colab cells using the command - !pytest TestCases.py
+
 This will run all the tests and output the results.
 
 # NOTE
