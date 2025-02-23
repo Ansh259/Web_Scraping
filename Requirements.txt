@@ -1,0 +1,12 @@
+aiohttp
+beautifulsoup4
+openpyxl
+pytest
+requests
+zipfile
+pytest
+unittest.mock
+patch
+pyspark.sql
+
+NOTE: You need to import these libraries using pip install command, if you haven't installed yet!
