@@ -71,6 +71,8 @@ Step 3: Running the Tests on the colab cells using the command - !pytest TestCas
 This will run all the tests and output the results.
 
 # NOTE
+Run the script in My_Program.py file on colab cell and do remember to import all the lib/packages mentioned in the requirements.txt file.
+
 The tests mock the HTML data to avoid actual HTTP requests, ensuring faster execution during testing. No live web scraping occurs while running the tests.
 
 
