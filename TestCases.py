@@ -93,6 +93,3 @@ def test_zip_content():
         # Check the expected file names inside the ZIP (you can adjust this based on your naming convention)
         mock_zip_instance.write.assert_any_call('1.html')
         mock_zip_instance.write.assert_any_call('2.html')
-
-
-# Add additional tests as needed for other functions (e.g., testing edge cases, invalid input, etc.)
