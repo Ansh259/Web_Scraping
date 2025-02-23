@@ -2,8 +2,9 @@
 This project scrapes hockey team stats from the website https://www.scrapethissite.com/pages/forms/ and processes the data to generate:
   1) A ZIP file containing all original HTML pages collected from the site.
   2) An Excel file with two sheets:
-    a) NHL Stats 1990-2011: Contains the original data.
-    b) Winner and Loser per Year: A summary of the teams with the most wins and the least wins for each year.
+     
+     a) NHL Stats 1990-2011: Contains the original data.
+     b) Winner and Loser per Year: A summary of the teams with the most wins and the least wins for each year.
 
 # Table of Contents
   Installation
