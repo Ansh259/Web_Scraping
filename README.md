@@ -8,10 +8,12 @@ This project scrapes hockey team stats from the website https://www.scrapethissi
      b) Winner and Loser per Year: A summary of the teams with the most wins and the least wins for each year.
 
 # Table of Contents
+
   Installation
+  
   Usage
+  
   Testing
-  License
 
 # Installation
 To run this project, you'll need Python 3.7+ installed on your system. Follow these steps to install the dependencies:
