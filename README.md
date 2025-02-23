@@ -58,6 +58,14 @@ After running the script, you'll find two output files:
     
     b.2) Sheet 2: Winner and Loser per Year (summary of teams with the most and least wins).
 
+Check the Colab output: After running the code, the two files (hockey_stats.zip and hockey_stats.xlsx) will be generated in the working directory. If you're running the code in Google Colab, you can download them directly from the file explorer or use the following code to download the files:
+
+from google.colab import files
+
+files.download("hockey_stats.zip")
+
+files.download("hockey_stats.xlsx")
+
 # Testing
 
 The project includes unit tests for data transformation. You can run the tests to verify the correctness of the core logic.
