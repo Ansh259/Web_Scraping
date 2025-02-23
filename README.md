@@ -4,6 +4,7 @@ This project scrapes hockey team stats from the website https://www.scrapethissi
   2) An Excel file with two sheets:
      
      a) NHL Stats 1990-2011: Contains the original data.
+     
      b) Winner and Loser per Year: A summary of the teams with the most wins and the least wins for each year.
 
 # Table of Contents
@@ -20,6 +21,7 @@ git clone https://github.com/yourusername/hockey-team-stats-scraper.git
 cd hockey-team-stats-scraper
 
 2. Install the dependencies:
+   
 a) Create and activate a virtual environment (optional but recommended):
 
 python -m venv venv
