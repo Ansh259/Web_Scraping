@@ -72,7 +72,7 @@ def test_excel_content():
 
     # Read the generated Excel file using pandas to check content
     df = spark.read.format("xlsx").option("header","true").load('hockey_stats.xlsx')
-	df.show(head
+    df.show()
 
     # Check if the first few rows match expected values
     assert df.iloc[0]['Team Name'] == 'Team A'
