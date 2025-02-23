@@ -38,15 +38,22 @@ To scrape the data and generate the output files (hockey_team_stats.zip and hock
 My_Program.py
 
 This will:
+
   a) Download the HTML pages from the website.
+
   b) Save them in a ZIP file.
+  
   c) Parse the data and create an Excel file with two sheets.
 
 2. Files Generated
 After running the script, you'll find two output files:
+
   a) hockey_team_stats.zip: A ZIP file containing the HTML files from each page (named 1.html, 2.html, ..., 24.html).
+  
   b) hockey_team_stats.xlsx: An Excel file with two sheets:
+  
     b.1) Sheet 1: NHL Stats 1990-2011 (all scraped rows).
+    
     b.2) Sheet 2: Winner and Loser per Year (summary of teams with the most and least wins).
 
 # Testing
